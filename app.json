@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "new",
-    "slug": "new",
+    "name": "Tech_Trival",
+    "slug": "Tech_Trival",
     "version": "1.0.0",
-
-    "scheme": "new",
+    "scheme": "Tech_Trival",
     "platforms": ["ios", "android"],
     "web": {
       "bundler": "metro",
@@ -14,15 +13,11 @@
     "plugins": ["expo-router"],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -36,7 +31,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thesamadazeez.xnew"
     }
   }
 }
