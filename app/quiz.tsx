@@ -84,7 +84,7 @@ export default function QuizScreen() {
   const progress = ((currentQuestionIndex + 1) / quizQuestions.length) * 100;
 
   return (
-    <View className="flex-1 bg-[#101c22] pt-12">
+    <View className="flex-1 bg-[#101c22] py-12">
       <Stack.Screen options={{ headerShown: false }} />
 
       {/* Header */}

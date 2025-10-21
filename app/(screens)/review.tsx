@@ -18,7 +18,7 @@ export default function ReviewScreen() {
   };
 
   return (
-    <View className="flex-1 bg-[#101c22] pt-12">
+    <View className="flex-1 bg-[#101c22] py-12">
       <Stack.Screen options={{ headerShown: false }} />
 
       {/* Header */}
